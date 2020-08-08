@@ -11,7 +11,8 @@
 /*colors used are: palegoldenrod, pink, crimson, cornsilk.*/
 
 h3 {
-    /* margin-top: 2em;  */
+    color: cornsilk; 
+    font-size: .80rem;
 }
 
 h4 {
@@ -53,7 +54,7 @@ img {
     width: 100%;
     background-color: crimson;
     display: flex;
-    padding: 2em 2em;  
+    padding: 1em 0em;  
     justify-content: flex-end;   
 }
 
@@ -107,21 +108,26 @@ img {
     display: flex;
     width: 100%;
     flex-direction: column;
-    border: 3pt solid green;
+    /* border: 3pt solid green; */
     align-items: center;
+    padding-bottom: 4rem;
 }
 
 .art__container {
     margin: auto;
-    width: 80vw;
+    width: 90vw;
     display: flex;
-    border: 3pt solid red;
-    flex-direction: column;
+    /* border: 3pt solid red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 3rem 0;
 }
 
 .art__container--items {
-    justify-content: space-around;
+    /* justify-content: space-around; */
     max-width: 35vw;
+    /* border: 3pt solid green; */
+    margin-bottom: 2rem;
   
     
 }
@@ -129,17 +135,18 @@ img {
 
 
 .art__container img {
-    margin: 5em 0 2em 0;
+    /* margin: 5em 0 2em 0; */
     border: 12px solid goldenrod;
     box-shadow: 3px 3px 3px crimson;
-    width: 40vw;
+    /* width: 40vw; */
 }
 
 #image__description {
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     color: crimson;
     justify-content: center;
     text-align: center;
+    margin-top: .75rem;
 }
 
 
@@ -147,67 +154,70 @@ img {
 /*Project Section Settings*/
 
 #projects {   
-    border: 3pt solid aqua;
-    margin-top: 20%;
+    /* border: 3pt solid aqua; */
+    /* margin-top: 20%; */
     display: block;
-    padding: 0 1rem 4rem 1rem;
-    background-color: crimson;
+    padding: 0 0 4rem 0;
+    background-color: pink;
+    
       
 }
 
 .project-tile {  
-    align-self: center; 
+    margin: auto;
+    padding: 0;
+    /* border: 3pt solid green; */
+    max-width: 30%;
     
     
         
 }
 
 .project-tile-main {
-    background-color: cornsilk;
-    
+    background-color: crimson;
+    justify-content: center;
     width: 70vw;
     line-height: 1.25rem;
     padding: 1.25rem 2rem;
-    margin: auto;
+    margin: 5rem auto 0;
+    /* border: 3pt solid blue; */
 
 }
 
 .projects__portfolio {
     display: flex;
     justify-content: space-around;
-    padding: 10rem 0;
+    padding: 2rem 0;
     
 }
 
 .project-image {
-   width: 30vw;
-   padding: 1rem 0; 
+   width: 25vw;
+   padding: 1rem; 
 }
 
 .project-text-box {
   text-align: center;
-  border: 3pt solid yellow; 
+  /* border: 3pt solid yellow;  */
   display: block; 
   justify-content: space-around;
 }
 
 .project-name {
     
-    
-    border: 3pt solid white;
+    margin: 0;
+    /* border: 3pt solid white; */
    
 }
 
-.project-name h3 {
-    margin: 0;
-}
+
 
 .project-link {
     color: pink;
     background-color: crimson;
     
-    border: 3pt solid greenyellow;
-    /* margin: .5em auto; */
+    /* border: 3pt solid greenyellow; */
+    margin: .5em auto;
     
  
 }
@@ -351,5 +361,5 @@ img {
 
 
     
-}
+
 
